@@ -83,3 +83,11 @@ python scripts/consistency_pipeline_github.py \
 ```
 
 If raw hourly inputs are not available, `daily_pairs.csv` should be considered the reference dataset for public sharing and figure reproduction.
+
+## Consistency analysis (ERA5 vs NASA POWER)
+
+<p align="center">
+  <img src="consistency-github-base/figures/consistency_combined_ieee.png" width="900">
+</p>
+
+**Figure 1.** Consistency assessment between ERA5/ERA5-Land and NASA POWER datasets for precipitation and relative humidity across representative radio links in Peru (coastal, Andean, and rainforest regions). The dashed line represents the ideal 1:1 agreement, while the solid line corresponds to the fitted regression model.
