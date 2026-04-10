@@ -1,1 +1,2 @@
 This repository provides the daily-level paired dataset used to reproduce the consistency analysis between NASA POWER and ERA5/ERA5-Land for precipitation, relative humidity, temperature, and surface pressure across representative radio links in Peru.
+![Figura de consistencia](figures/consistency_combined_ieee.png)
