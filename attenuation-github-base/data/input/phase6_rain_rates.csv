@@ -1,0 +1,7 @@
+region,percentile,R_mm_per_h
+costa,50,5
+costa,95,15
+sierra,50,10
+sierra,95,30
+selva,50,20
+selva,95,60
