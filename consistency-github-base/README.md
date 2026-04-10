@@ -85,10 +85,16 @@ python scripts/consistency_pipeline_github.py \
 If raw hourly inputs are not available, `daily_pairs.csv` should be considered the reference dataset for public sharing and figure reproduction.
 
 ## Consistency analysis (ERA5 vs NASA POWER)
-This figure illustrates the consistency between ERA5/ERA5-Land and NASA POWER datasets using paired daily observations. The analysis focuses on representative radio links across different geographical regions in Peru to assess the reliability of climatological inputs used in radio propagation modeling.
+
+Fig. 1 illustrates the consistency between ERA5/ERA5-Land and NASA POWER datasets using paired daily observations. The analysis focuses on representative radio links across different geographical regions in Peru to assess the reliability of climatological inputs used in radio propagation modeling.
+
+This validation step ensures the physical consistency of climatological inputs prior to their integration into ITU-R-based attenuation models.
+
 <p align="center">
   <img src="figures/consistency_combined_ieee.png" width="900">
 </p>
 
-The results indicate a high level of agreement for precipitation, supporting its direct use in attenuation models such as ITU-R P.838. In contrast, relative humidity shows moderate correlation and systematic bias, suggesting that correction or calibration may be required when integrating ERA5 data into gaseous attenuation models such as ITU-R P.676.
+**Fig. 1.** Consistency analysis between ERA5/ERA5-Land and NASA POWER datasets for precipitation (bottom row, log₁₀ scale) and relative humidity (top row) across representative radio links in Peru: coastal (L09-A), Andean (L03-A), and rainforest (L10-A). The dashed line represents the ideal 1:1 agreement, while the solid line corresponds to the fitted regression model.
+
+The results indicate a high level of agreement for precipitation, supporting its direct use in attenuation models such as ITU-R P.838. In contrast, relative humidity exhibits moderate correlation and systematic negative bias, indicating that ERA5 may underestimate moisture conditions in certain regions. This suggests that bias correction or calibration should be considered when integrating ERA5 data into gaseous attenuation models such as ITU-R P.676.
 
