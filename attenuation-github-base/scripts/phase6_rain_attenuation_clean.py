@@ -1,3 +1,18 @@
+"""
+Phase 6 - Rain attenuation (ITU-R P.838)
+
+Input:
+    data/input/phase5_rain_results.csv
+
+Output:
+    data/processed/phase6_rain_summary_p50_p95.csv
+
+Author:
+    Paulo Saldaña - Carlos J. Koo Labrín
+
+Repository:
+    Radio-link-climate-peru
+"""
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
