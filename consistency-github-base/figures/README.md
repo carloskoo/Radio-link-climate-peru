@@ -1,25 +1,8 @@
-## mean_correlation.png
+Figure 1:
+consistency_combined_ieee.png
 
-Average Pearson correlation coefficient between ERA5/ERA5-Land and NASA POWER for each climatological variable.
+Figure 2:
+summary_consistency_metrics_era5_power_ieee.png
 
-Variables:
-
-- PS: Surface pressure
-- RH: Relative humidity
-- PRECIP: Precipitation
-- T: Temperature
-
-Higher values indicate stronger agreement between datasets.
-
-## mean_rmse.png
-
-Average Root Mean Square Error (RMSE) between ERA5/ERA5-Land and NASA POWER for each climatological variable.
-
-Variables:
-
-- PS: Surface pressure
-- RH: Relative humidity
-- PRECIP: Precipitation
-- T: Temperature
-
-Lower values indicate better agreement between datasets.
+Supplementary Figure S1:
+consistency_heatmap_r.png
