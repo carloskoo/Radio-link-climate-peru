@@ -1,17 +1,44 @@
 """
-Phase 7 - Total attenuation (ITU-R P.838 - P.676)
+Phase 7 - Total atmospheric attenuation
 
-Input:
-    data/input/phase7_total_results.csv
+Purpose
+-------
+Combines gaseous attenuation and rain attenuation to estimate the total
+atmospheric attenuation affecting point-to-point radio links.
 
-Output:
-    data/processed/phase7_total_summary_p50_p95.csv
+Input
+-----
+data/processed/phase5_gaseous_summary_p50_p95.csv
+data/input/phase6_rain_results.csv
 
-Author:
-    Paulo Saldaña - Carlos J. Koo Labrín
+Output
+------
+data/processed/phase7_total_attenuation_results.csv
+data/processed/attenuation_mechanisms_combined.csv
+figures/fig_total_attenuation_q1.png
 
-Repository:
-    Radio-link-climate-peru
+Methodology
+-----------
+Total attenuation:
+
+    A_total = A_gaseous + A_rain
+
+where:
+    A_gaseous = attenuation from ITU-R P.676
+    A_rain    = attenuation from ITU-R P.838
+
+Authors
+-------
+Paulo Saldaña
+Carlos J. Koo Labrín
+
+Repository
+----------
+Radio-link-climate-peru
+
+License
+-------
+MIT License
 """
 
 from __future__ import annotations
