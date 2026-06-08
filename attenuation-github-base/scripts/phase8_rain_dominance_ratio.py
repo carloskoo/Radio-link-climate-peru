@@ -1,3 +1,42 @@
+"""
+Phase 8 - Rain contribution analysis
+
+Purpose
+-------
+Evaluates the relative contribution of rain attenuation with respect to
+the total atmospheric attenuation for representative radio links in Peru.
+
+Input
+-----
+data/processed/phase7_total_attenuation_results.csv
+
+Output
+------
+figures/fig_comparative_mechanisms_q1.png
+
+Methodology
+-----------
+Rain dominance ratio:
+
+    Rain Contribution (%) =
+    100 * A_rain / A_total
+
+This metric quantifies the relative importance of precipitation-driven
+attenuation compared with gaseous attenuation.
+
+Authors
+-------
+Paulo Saldaña
+Carlos J. Koo Labrín
+
+Repository
+----------
+Radio-link-climate-peru
+
+License
+-------
+MIT License
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
