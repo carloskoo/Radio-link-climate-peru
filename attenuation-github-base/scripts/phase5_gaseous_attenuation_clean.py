@@ -1,17 +1,37 @@
 """
-Phase 5 - Gaseous attenuation (ITU-R P.676)
+Phase 5 - Gaseous attenuation (ITU-R P.676-13)
 
-Input:
-    data/input/phase5_gaseous_results.csv
+Purpose
+-------
+Computes gaseous attenuation statistics for representative radio-link
+locations in Peru using climatological inputs derived from ERA5/ERA5-Land.
 
-Output:
-    data/processed/phase5_gaseous_summary_p50_p95.csv
+Input
+-----
+data/input/phase5_gaseous_results.csv
 
-Author:
-    Paulo Saldaña - Carlos J. Koo Labrín
+Output
+------
+data/processed/phase5_gaseous_summary_p50_p95.csv
+figures/fig_gaseous_attenuation_q1.png
 
-Repository:
-    Radio-link-climate-peru
+Methodology
+-----------
+ITU-R P.676-13:
+Specific attenuation due to atmospheric gases (oxygen and water vapor).
+
+Authors
+-------
+Paulo Saldaña
+Carlos J. Koo Labrín
+
+Repository
+----------
+Radio-link-climate-peru
+
+License
+-------
+MIT License
 """
 from __future__ import annotations
 
