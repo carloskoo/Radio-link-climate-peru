@@ -31,3 +31,34 @@ Donde:
 γ_gas   = gaseous attenuation from ITU-R P.676
 γ_rain  = rain attenuation from ITU-R P.838
 γ_total = total atmospheric attenuation
+
+attenuation-github-base/
+├── data/
+│   ├── input/
+│   │   ├── phase5_gaseous_results.csv
+│   │   ├── phase6_rain_rates.csv
+│   │   ├── phase6_k_alpha_p838.csv
+│   │   └── phase6_rain_results.csv
+│   │
+│   └── processed/
+│       ├── phase5_gaseous_summary_p50_p95.csv
+│       ├── phase7_total_attenuation_results.csv
+│       └── attenuation_mechanisms_combined.csv
+│
+├── figures/
+│   ├── fig_gaseous_attenuation_q1.png
+│   ├── fig_rain_attenuation_q1.png
+│   ├── fig_total_attenuation_q1.png
+│   └── fig_comparative_mechanisms_q1.png
+│
+├── metadata/
+│   └── f_GHz_pol_k_alpha.csv
+│
+├── scripts/
+│   ├── README.md
+│   ├── phase5_gaseous_attenuation_clean.py
+│   ├── phase6_rain_attenuation_clean.py
+│   ├── phase7_total_attenuation_clean.py
+│   └── phase8_rain_dominance_ratio.py
+│
+└── README.md
