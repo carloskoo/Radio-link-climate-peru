@@ -62,3 +62,16 @@ attenuation-github-base/
 │   └── phase8_rain_dominance_ratio.py
 │
 └── README.md
+
+## Reproducibility
+
+All attenuation results reported in the thesis can be reproduced directly from the datasets and scripts available in this repository.
+
+Workflow:
+
+1. Gaseous attenuation (ITU-R P.676)
+2. Rain attenuation (ITU-R P.838)
+3. Total attenuation
+4. Rain dominance analysis
+
+The repository contains all intermediate datasets, metadata files, processing scripts, and publication-quality figures used in the study.
