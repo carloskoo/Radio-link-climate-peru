@@ -1,3 +1,18 @@
+"""
+Phase 7 - Total attenuation (ITU-R P.838 - P.676)
+
+Input:
+    data/input/phase7_total_results.csv
+
+Output:
+    data/processed/phase7_total_summary_p50_p95.csv
+
+Author:
+    Paulo Saldaña - Carlos J. Koo Labrín
+
+Repository:
+    Radio-link-climate-peru
+"""
 
 from __future__ import annotations
 
