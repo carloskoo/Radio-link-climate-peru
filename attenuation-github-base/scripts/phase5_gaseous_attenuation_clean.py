@@ -1,3 +1,18 @@
+"""
+Phase 5 - Gaseous attenuation (ITU-R P.676)
+
+Input:
+    data/input/phase5_gaseous_results.csv
+
+Output:
+    data/processed/phase5_gaseous_summary_p50_p95.csv
+
+Author:
+    Paulo Saldaña - Carlos J. Koo Labrín
+
+Repository:
+    Radio-link-climate-peru
+"""
 from __future__ import annotations
 
 import argparse
