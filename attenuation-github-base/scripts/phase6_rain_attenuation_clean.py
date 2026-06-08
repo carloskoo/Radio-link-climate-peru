@@ -1,17 +1,38 @@
 """
-Phase 6 - Rain attenuation (ITU-R P.838)
+Phase 6 - Rain attenuation (ITU-R P.838-3)
 
-Input:
-    data/input/phase5_rain_results.csv
+Purpose
+-------
+Computes rain attenuation for representative radio-link locations in Peru
+using rainfall-rate statistics and ITU-R rain attenuation coefficients.
 
-Output:
-    data/processed/phase6_rain_summary_p50_p95.csv
+Input
+-----
+data/input/phase6_rain_rates.csv
+data/input/phase6_k_alpha_p838.csv
 
-Author:
-    Paulo Saldaña - Carlos J. Koo Labrín
+Output
+------
+data/input/phase6_rain_results.csv
+figures/fig_rain_attenuation_q1.png
 
-Repository:
-    Radio-link-climate-peru
+Methodology
+-----------
+ITU-R P.838-3:
+Specific attenuation due to rain using k and alpha coefficients.
+
+Authors
+-------
+Paulo Saldaña
+Carlos J. Koo Labrín
+
+Repository
+----------
+Radio-link-climate-peru
+
+License
+-------
+MIT License
 """
 import pandas as pd
 import numpy as np
