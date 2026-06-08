@@ -27,3 +27,7 @@ The total atmospheric attenuation is computed as:
 
 ```text
 γ_total = γ_gas + γ_rain
+Donde: 
+γ_gas   = gaseous attenuation from ITU-R P.676
+γ_rain  = rain attenuation from ITU-R P.838
+γ_total = total atmospheric attenuation
